@@ -35,7 +35,7 @@ namespace HMS
             services.AddDbContext<HMSDBContext>(x => x.UseSqlServer(Configuration.GetConnectionString("ConStr")));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "HMS", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Hospital Management System", Version = "v1" });
             });
         }
 
@@ -46,7 +46,7 @@ namespace HMS
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HMS v1")
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hospital Management System v1")
                 );
             }
 

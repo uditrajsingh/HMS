@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HMS.DomainLayer\HMS.DomainLayer.csproj" />
+    <ProjectReference Include="..\HMS.DomainLayer\HospitalManagementSystem.DomainLayer.csproj" />
   </ItemGroup>
 
 </Project>
