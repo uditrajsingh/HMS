@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HMS.DomainLayer\HMS.DomainLayer.csproj" />
-    <ProjectReference Include="..\HMS.ServiceLayer\HMS.ServiceLayer.csproj" />
+    <ProjectReference Include="..\HMS.DomainLayer\HospitalManagementSystem.DomainLayer.csproj" />
+    <ProjectReference Include="..\HMS.ServiceLayer\HospitalManagementSystem.ServiceLayer.csproj" />
   </ItemGroup>
 
 </Project>
